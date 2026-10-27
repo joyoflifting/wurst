@@ -1,0 +1,30 @@
+{
+  "name": "wurst",
+  "version": "0.0.1",
+  "description": "it's de WURST",
+  "keywords": [
+    "ide",
+    "ai",
+    "cursor",
+    "claude"
+  ],
+  "homepage": "https://github.com/joyoflifting/wurst#readme",
+  "bugs": {
+    "url": "https://github.com/joyoflifting/wurst/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joyoflifting/wurst.git"
+  },
+  "license": "ISC",
+  "author": "Nick Baker",
+  "type": "commonjs",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^45.1.0"
+  }
+}
