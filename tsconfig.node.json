@@ -1,0 +1,21 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ES2023"],
+    "types": ["node"],
+    "baseUrl": ".",
+    "paths": {
+      "@wurst/application": ["packages/application/src/index.ts"],
+      "@wurst/core": ["packages/core/src/index.ts"]
+    }
+  },
+  "include": [
+    "electron.vite.config.ts",
+    "vite.preview.config.mts",
+    "vitest.config.mts",
+    "src/main",
+    "src/preload",
+    "src/shared",
+    "src/boundary"
+  ]
+}

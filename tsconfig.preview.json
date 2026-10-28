@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
+    "jsx": "react-jsx",
+    "types": [],
+    "baseUrl": ".",
+    "paths": {
+      "@wurst/application": ["packages/application/src/index.ts"],
+      "@wurst/presentation": ["packages/presentation/src/index.ts"]
+    }
+  },
+  "include": ["src/preview", "types"]
+}

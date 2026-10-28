@@ -1,0 +1,22 @@
+appId: dev.joyoflifting.wurst
+productName: WURST
+executableName: wurst
+copyright: Copyright © 2026 Nick Baker
+directories:
+  output: release
+files:
+  - out/**/*
+  - package.json
+  - "!**/*.map"
+asar: true
+npmRebuild: false
+linux:
+  target:
+    - dir
+  category: Development
+mac:
+  target:
+    - dir
+win:
+  target:
+    - dir

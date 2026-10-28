@@ -1,0 +1,13 @@
+{
+  "name": "@wurst/application",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Application contracts and the in-memory client for the WÜRST scaffold.",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  }
+}

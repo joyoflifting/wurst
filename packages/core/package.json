@@ -1,0 +1,13 @@
+{
+  "name": "@wurst/core",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Framework-independent engineering policy for WÜRST. The scaffold has no policy behavior yet.",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  }
+}
