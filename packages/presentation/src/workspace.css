@@ -1,0 +1,105 @@
+:root {
+  color-scheme: light;
+  font-family: "Segoe UI", sans-serif;
+  background: #f4f1ea;
+  color: #221c16;
+}
+
+body {
+  margin: 0;
+}
+
+.shell {
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding: 1.5rem;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.mark {
+  margin: 0;
+  letter-spacing: 0.08em;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-size: 1.6rem;
+  font-weight: 650;
+}
+
+.fixture-tag,
+.note,
+.alert {
+  border: 1px solid #c8b8a2;
+  border-radius: 6px;
+}
+
+.fixture-tag {
+  margin: 0;
+  padding: 0.35rem 0.6rem;
+  background: #fff8ee;
+  font-size: 0.85rem;
+}
+
+.note,
+.alert {
+  padding: 0.8rem 1rem;
+  background: #fff;
+  line-height: 1.45;
+}
+
+.alert {
+  border-color: #a33b24;
+}
+
+.workspace {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.workspace section {
+  flex: 1 1 16rem;
+  background: #fffdf8;
+  border: 1px solid #ddd2c3;
+  border-radius: 8px;
+  padding: 1rem 1rem 0.5rem;
+}
+
+.workspace h2 {
+  font-size: 1.05rem;
+}
+
+.workspace p,
+.meta p {
+  line-height: 1.45;
+}
+
+.meta {
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 2rem;
+}
+
+.meta p {
+  margin-bottom: 0;
+}
